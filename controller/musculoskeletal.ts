@@ -1,5 +1,5 @@
 import { msJson } from '../constant';
-import '../utils/global';
+import '../utils/global.utility';
 
 export const musculoskeletal : Function = (ms : Object) : Object => {
   /*
