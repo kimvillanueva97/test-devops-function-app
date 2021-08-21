@@ -3,5 +3,7 @@
 .git*
 .vscode
 local.settings.json
-test
+tests/
 tsconfig.json
+.nyc_output*
+.nycrc.json

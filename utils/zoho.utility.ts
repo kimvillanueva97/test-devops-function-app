@@ -1,6 +1,5 @@
-export {};
 
-declare global {
+// declare global{
   interface Object {
     get(s: string) : any;
     contains(s: string) : boolean;
@@ -18,7 +17,7 @@ declare global {
     notContains(s: string): boolean;
     remove(s: string): string;
   }
-}
+// }
 
 // Object
 Object.prototype.get = function (s: string): any {

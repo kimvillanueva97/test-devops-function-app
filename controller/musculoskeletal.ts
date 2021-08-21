@@ -1,5 +1,4 @@
-import { msJson } from '../constant';
-import '../utils/global.utility';
+import '../utils/zoho.utility';
 
 export const musculoskeletal : Function = (ms : Object) : Object => {
   /*
@@ -1906,7 +1905,7 @@ if(ms_le_data.length !== 0 && ms_le_data.notContains("None of these apply to me"
 			musculoData = musculoData.concat(arth_yesno);
 		}
 	});
-	console.log(musculoData);
+	// console.log(musculoData);
 }
 //Upper Extremity Data
 const ms_ue_data = ms.get("Upper_Extremity_Select");
@@ -1939,7 +1938,7 @@ if(ms_ue_data.length !== 0 && ms_ue_data.notContains("None of these apply to me"
 			musculoData = musculoData.concat(arth_yesno);
 		}
 	});
-	console.log(musculoData);
+	// console.log(musculoData);
 }
 //Misc Musculoskeletal Data
 let ms_misc_data = ms.get("Misc_Select");
@@ -1971,7 +1970,7 @@ if(ms_misc_data.length !== 0 && ms_misc_data.notContains("None of these apply to
 			musculoData = musculoData.concat(arth_yesno);
 		}
 	});
-	console.log(musculoData);
+	// console.log(musculoData);
 }
 
 
@@ -1990,6 +1989,5 @@ if(ms_misc_data.length !== 0 && ms_misc_data.notContains("None of these apply to
     notConnectedFormattedList: msNotConnectedFormattedList,
     directRelatedList: msDirectRelatedList,
     directRelatedFormattedList: msDirectRelatedFormattedList,
-    vetSummary: musculoData
   };
 };

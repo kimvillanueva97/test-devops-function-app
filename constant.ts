@@ -22,22 +22,20 @@ export const msJson = {
   ],
   "Name":"kim.joshua@loxleyservices.com",
   "Last_Activity_Time":"2021-08-04T23:36:55-04:00",
-  "Hip_Right_Joint":null,
+  "Hip_Right_Joint":"",
   "Jaw_Pain":[
      
   ],
   "Chronic_Leg_Left":[
      
   ],
-  "Ankle_Right_Joint":null,
+  "Ankle_Right_Joint":"",
   "$state":"save",
-  "Unsubscribed_Mode":null,
-  "Lower_Back_Joint":null,
+  "Unsubscribed_Mode":"",
+  "Lower_Back_Joint":"",
   "$process_flow":false,
   "Upper_Extremity_Select":[
-     "Shoulder Problem- Right",
-     "Elbow Problem- Left",
-     "Wrist Problem- Right"
+      // "None of these apply to me"
   ],
   "id":"3887925000467991234",
   "Client":{
@@ -46,11 +44,10 @@ export const msJson = {
   },
   "$approved":true,
   "Elbow_Prob_Left":[
-     "I am VA rated 10% for this condition"
   ],
-  "Ankle_Left_Joint":null,
+  "Ankle_Left_Joint":"",
   "Misc_Select":[
-     "None of these apply to me"
+   //   "None of these apply to me"
   ],
   "$approval":{
      "delegate":false,
@@ -58,13 +55,13 @@ export const msJson = {
      "reject":false,
      "resubmit":false
   },
-  "Elbow_Right_Joint":null,
-  "Foot_Right_Joint":"Yes",
+  "Elbow_Right_Joint":"",
+  "Foot_Right_Joint":"",
   "Psoriatic_Arth":[
      
   ],
   "Shoulder_Prob_Right":[
-     "I am VA rated 30% for this condition"
+
   ],
   "Pes_Planus":[
      
@@ -85,13 +82,13 @@ export const msJson = {
   "Hand_Prob_Right":[
      
   ],
-  "Foot_Left_Joint":null,
+  "Foot_Left_Joint":"",
   "Foot_Prob_Left":[
      
   ],
-  "Neck_Joint":null,
+  "Neck_Joint":"",
   "Wrist_Prob_Right":[
-     "I am VA rated 30% for this condition"
+     
   ],
   "Hip_Prob_Right":[
      
@@ -110,7 +107,7 @@ export const msJson = {
   "Chronic_Arm_Left":[
      
   ],
-  "Muscle_Atrophy":null,
+  "Muscle_Atrophy":"",
   "Elbow_Prob_Right":[
      
   ],
@@ -119,45 +116,43 @@ export const msJson = {
      "reject":false,
      "resubmit":false
   },
-  "Pes_Planus_Assist":null,
-  "Hand_Finger_Right_Joint":null,
+  "Pes_Planus_Assist":"",
+  "Hand_Finger_Right_Joint":"",
   "Other_MS_Select":[
      
   ],
-  "Wrist_Left_Joint":null,
+  "Wrist_Left_Joint":"",
   "Modified_By":{
      "name":"VCP Forms Team",
      "id":"3887925000046399250",
      "email":"forms@vetcompandpen.com"
   },
   "Hip_Left_Joint":"Yes",
-  "$review":null,
-  "Knee_Left_Joint":null,
+  "$review":"",
+  "Knee_Left_Joint":"",
   "Foot_Prob_Right":[
      "I never applied for this but I had issues or medical treatment for this while on active duty"
   ],
   "Shoulder_Right_Joint":"No",
-  "Other_MS_Fill":null,
-  "Shoulder_Left_Joint":null,
+  "Other_MS_Fill":"",
+  "Shoulder_Left_Joint":"",
   "Ankle_Prob_Left":[
      
   ],
   "Modified_Time":"2021-08-04T23:36:55-04:00",
   "Wrist_Right_Joint":"Yes",
-  "Hamd_Finger_Left_Joint":null,
-  "Unsubscribed_Time":null,
+  "Hamd_Finger_Left_Joint":"",
+  "Unsubscribed_Time":"",
   "Plantar_Fasciitis_Right":[
      
   ],
-  "Mid_Back_Joint":null,
+  "Mid_Back_Joint":"",
   "$orchestration":false,
   "Chronic_Arm_Right":[
      
   ],
-  "Lower_Extremity_Select":[
-     "Hip joint problem- Left",
-     "Knee Problem- Right",
-     "Foot Problem- Right"
+  Lower_Extremity_Select:[
+   //   "None of these apply to me"
   ],
   "$in_merge":false,
   "Wrist_Prob_Left":[
@@ -167,7 +162,7 @@ export const msJson = {
      
   ],
   "Hip_Prob_Left":[
-     "I never applied for this but I had issues or medical treatment for this while on active duty"
+     
   ],
   "Tag":[
      

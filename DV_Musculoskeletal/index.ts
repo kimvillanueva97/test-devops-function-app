@@ -3,11 +3,11 @@ import { musculoskeletal } from '../controller/musculoskeletal';
 
 const httpTrigger: AzureFunction = async function (context: Context, req: HttpRequest): Promise<void> {
     context.log('HTTP trigger function processed a request.');
+    let ms = {};
     let data : Object = (req.query.data || (req.body && req.body.data || req.headers.data) || {});
 
     data = (typeof data === 'object')? data : JSON.parse(data);
     
-    let ms = {};
     if(Object.keys(data).length !== 0){
         ms = musculoskeletal(data);
     }
@@ -15,7 +15,7 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     context.res = {
         // status: 200, /* Defaults to 200 */
         body: {
-            ms
+            ms,
         }
     };
 
