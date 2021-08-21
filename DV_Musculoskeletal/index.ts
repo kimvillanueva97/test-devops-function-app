@@ -9,7 +9,6 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     data = (typeof data === 'object')? data : JSON.parse(data);
     
     //pipe-line commit
-    let ms = {};
     if(Object.keys(data).length !== 0){
         ms = musculoskeletal(data);
     }
